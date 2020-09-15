@@ -26,13 +26,25 @@
     <p>clear képernyö törlés</p>
     <p>git checkout 5f5f5f index.html átugrunk egy korábbi állapotra. 5f5f5f az a hexadecimális számát
        ami a commitnek a száma.</p>
+       <p>git checkout head~x (headhoz viszonyitva hány komitot ugorjon vizssza)</p>
     <p>git checkout head index.html aktuális állapotra ugrás.</p>
     <p>git checkout master vissza a master ágrra.</p>    
+    <p>git checkout -B master< master ág mozgatása de ez vissza nem vonhato. ahány komitot utána irtunk az elveszik/p>
+    <p>git reflog minden változás kiiratása comitonként. git checkout 
+        komitszám utána mentés akkor az  eveszet dolog is visszaálitható.</p>        
     <h3>merge</h3><br>
     <p>összefésülés ha valamelyik ágon változás történt azt össze tudjuk fésülni. </p>
     <p>git merge -ágnak a neve-</p>
     <hr>
     <p>git rebase -korabbu ag neve- összefésul csak kommitenként</p>
+    <p>git rm /filename* fájl törlése</p>
+    <p>git mv /forraskonyvtar/forras.file /celkkonyvtar/célhely.filename.nev</p>
+    <p>git diff(head~9 régi commit headja) head(jelen master head) közötti különbségeket listázza ki. </p>
+    <p>git reset --soft HEAD~1 (vissza egy committel. mert nem két komitbe akarom mentneni csak egy komitbe)</p>
+<hr>
+<h2>Szoftverfejlesztés gitben feature ágban</h2>
+
+    <p>git checkout -b future-abaut-html</p>
     <footer>Fejlesztés alatt---</footer>
 
 </body>
