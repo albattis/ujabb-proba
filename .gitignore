@@ -1,0 +1,4 @@
+account.js
+*.orig (konfliktusok alapján keletkezö fájlok)
+node_modules (javascript dájlok szintén nem kellenek)
+.ds_store
