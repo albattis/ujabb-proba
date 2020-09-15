@@ -3,3 +3,9 @@ body
     font-size: 16px;
     background-color: darkgoldenrod;
 }
+h1
+{
+    color: darkgreen;
+    letter-spacing: 0.7px;
+    
+}
